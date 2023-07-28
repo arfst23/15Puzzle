@@ -5,16 +5,13 @@ is a sliding puzzle having 15 square tiles numbered 1 to 15 in a
 frame that is 4 tiles high and 4 tiles wide, leaving one unoccupied tile
 position.
 
-Mis a sliding puzzle having 15 square tiles numbered 1 to 15 in a
-frame that is 4 tiles high and 4 tiles wide, leaving one unoccupied tile
-position.
-
 ## Mathematical Analysis
 
 This table shows the number of permutations by the number of moves
 required to solve the puzzle:
 
 | moves | positions |
+| ----- | --------- |
 | 00 |            1 |
 | 01 |            2 |
 | 02 |            4 |
@@ -122,7 +119,7 @@ Here are the 17 permutations that need 80 moves, written row by row:
 
 ## Algorithmic Idea
 
-The code implements the paper /Additive Pattern Database Heuristics/ by
+The code implements the paper *Additive Pattern Database Heuristics* by
 Ariel Felner, Richard E. Korf, and Sarit Hanan from 2004.
 The database was improve takin the empty field into consideration.
 
